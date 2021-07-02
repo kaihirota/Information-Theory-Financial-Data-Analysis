@@ -73,17 +73,17 @@ First step of the analysis is converting daily adjusted closing price of each ma
 
 Figure 1: Histogram of log daily return: N225 = Japan, GSPC = United States, N100 = Europe, BVSP = Brazil.
 
-<img src="/Users/Kai/Dropbox/Documents/Classes/InfoTheory/Project/project.assets/image-20201121173153738.png" alt="image-20201121173153738" style="zoom:50%;" />
+<img src="project.assets/image-20201121173153738.png" alt="image-20201121173153738" style="zoom:50%;" />
 
 To test the hypothesis that the United States economy has more influence on Japanese economy, transfer entropy was calculated for both directions, GSPC to N225, and N225 to GSPC, for each year since 2000. As shown in figure 2 below, transfer entropy from GSPC to N225 is greater than N225 to GSPC for every time period. The transfer entropy in both directions and net information flow from GSPC to N225 is shown in figure 3. From these two figures, it is evident that while there's information transfer in both directions, the United States economy has far more influence on the Japanese economy than vice versa.
 
 Figure 2: Transfer Entropy between the United States (GSPC) and Japan (N225), from 2000 to 2020.
 
-<img src="/Users/Kai/Dropbox/Documents/Classes/InfoTheory/Project/project.assets/image-20201121172710480.png" alt="image-20201121172710480" />
+<img src="project.assets/image-20201121172710480.png" alt="image-20201121172710480" />
 
 Figure 3: Transfer Entropy between GSPC (USA) and N225 (Japan), and Net Information Flow from GSPC to N225.
 
-<img src="/Users/Kai/Dropbox/Documents/Classes/InfoTheory/Project/project.assets/image-20201121172611526.png" style="zoom:50%;" />
+<img src="project.assets/image-20201121172611526.png" style="zoom:50%;" />
 
 Using all of the data available from the year 2000, we also calculated the overall transfer entropy. The transfer entropy from the United States to Japan is 0.1327 nats with p-value of 0, while the transfer entropy from Japan to the United States is 0.018 nats with p-value of 0.01. Using a threshold of 0.05, we fail to reject the null hypothesis that the United States has more influence on Japan, with a result that is statistically significant. The result of the data analysis suggests that the log return of N225 can be predicted to an extent from the log return of S&P500 (GSPC). 
 
@@ -91,7 +91,7 @@ Transfer entropy was also calculated in both directions for every pair of market
 
 Figure 4: Transfer Entropy Matrix
 
-<img src="/Users/Kai/Dropbox/Documents/Classes/InfoTheory/Project/project.assets/heatmap.png" style="zoom:80%;" />
+<img src="project.assets/heatmap.png" style="zoom:80%;" />
 
 
 
@@ -112,7 +112,7 @@ Using selected ETFs to represent various industries, transfer entropy contributi
 
 Figure 5: Yearly Transfer Entropy Contribution by Industry Sector (Color scale applied row-wise. Darkest color indicate the maximum TE contribution for that year.)
 
-<img src="/Users/Kai/Dropbox/Documents/Classes/InfoTheory/Project/project.assets/image-20201121232250014.png" alt="image-20201121232250014" style="zoom:80%;" />
+<img src="project.assets/image-20201121232250014.png" alt="image-20201121232250014" style="zoom:80%;" />
 
 ##### Pharmaceutical
 
@@ -120,7 +120,7 @@ Figure 5: Yearly Transfer Entropy Contribution by Industry Sector (Color scale a
 
 Figure 6: Cost of Human Genome Sequencing
 
-<img src="/Users/Kai/Dropbox/Documents/Classes/InfoTheory/Project/project.assets/sequencing.jpg" style="zoom:80%;" />
+<img src="project.assets/sequencing.jpg" style="zoom:80%;" />
 
 ##### Consumer Staples
 
@@ -128,7 +128,7 @@ Consumer staples refers to essential products such as food, beverage, household 
 
 Figure 7: United States unemployment rate, seasonally adjusted, October 2018 - October 2020
 
-<img src="/Users/Kai/Dropbox/Documents/Classes/InfoTheory/Project/project.assets/image-20201122000453569.png" alt="image-20201122000453569" style="zoom:67%;" />
+<img src="project.assets/image-20201122000453569.png" alt="image-20201122000453569" style="zoom:67%;" />
 
 Source: United States Bureau of Labor Statistics[^bls]
 
@@ -138,7 +138,7 @@ In the year 2008, price of crude oil reached an all time high of 147.5 USD per b
 
 Figure 8: Adjusted Daily Closing Price of USO (United States Oil Fund)
 
-<img src="/Users/Kai/Dropbox/Documents/Classes/InfoTheory/Project/project.assets/image-20201122001734002.png" alt="image-20201122001734002" style="zoom:80%;" />
+<img src="project.assets/image-20201122001734002.png" alt="image-20201122001734002" style="zoom:80%;" />
 
 ### Discussion
 
