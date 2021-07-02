@@ -1,5 +1,6 @@
 # Information-Theory-Financial-Data-Analysis
 
+Research project for CSYS5030: Information Theory and Self-Organisation at the University of Sydney
 
 ### Aim/Materials
 
